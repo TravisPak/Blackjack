@@ -15,6 +15,21 @@ module.exports = {
         test:/\.(js|jsx)$/,
         exclude: /node_modules/,
         use: 'babel-loader'
+      },
+      // {
+      //   test: /\.svg$/,
+      //   use: ['@svgr/webpack'],
+      // },
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[hash]-[name].[ext]'
+            }
+          }
+        ]
       }
     ]
   },
@@ -22,5 +37,5 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   }
-};
+}
 

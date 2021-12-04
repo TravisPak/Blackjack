@@ -86,6 +86,630 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./client/src/cards/2C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/2C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/ae60ecf2e60fe19e62409eac5e09ac30-2C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/2C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/2D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/2D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/a812b0d28ecb602d0b8d60319ae10526-2D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/2D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/2H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/2H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/c6c5ee8fa4494c3ee47d8366d2d23dc5-2H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/2H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/2S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/2S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/2b7715b8046d53b221250086dc0b99fa-2S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/2S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/3C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/3C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/eed5fbc3298e5d9d67f1248887f7dbb2-3C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/3C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/3D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/3D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/df622bb30ba03741f8f9d2e7803673b5-3D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/3D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/3H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/3H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/bb9c04b056c9ecff4edcb8ac72b4eccd-3H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/3H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/3S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/3S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/71ce93b80ada766e384fda871d2e8f24-3S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/3S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/4C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/4C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/43133ee642bc075a7ac856a60d896022-4C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/4C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/4D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/4D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/737f2b02bff123d321adf6f9e3bedbc4-4D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/4D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/4H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/4H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/f4d12e87821ad9f8917fb7a1c9f3afbc-4H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/4H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/4S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/4S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/558c63fd11058e993dec1d39b701ddec-4S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/4S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/5C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/5C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/c6052edf832f3035984697521df043d0-5C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/5C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/5D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/5D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/3b9c4804c539d914445eaa41b564b3dc-5D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/5D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/5H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/5H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/f3fdba2c0e95f6cd13e648377ff4f353-5H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/5H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/5S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/5S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/af43f069018fe4b4bf1415ee9b56dd93-5S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/5S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/6C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/6C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/aab41476b4e944dfcb44213b4623cb23-6C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/6C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/6D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/6D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/d62fa590d9cf0baaa8dd55c75c2e812d-6D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/6D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/6H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/6H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/7579a0f3ab7eca23ca001cffefc3c064-6H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/6H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/6S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/6S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/65b923cec4a2c5844fb3cf581c12bd39-6S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/6S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/7C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/7C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/52ed2d885714980aa6ea98e291ae32c7-7C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/7C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/7D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/7D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/f1852b8c5dc419836554d13064a0f275-7D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/7D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/7H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/7H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/bfed1f57248a056e205b00de2b2d7503-7H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/7H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/7S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/7S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/12319d7529bae050e9d8a281c7728be6-7S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/7S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/8C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/8C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/6ce46ec1d6d709bc29ace22ccfebb852-8C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/8C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/8D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/8D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/fcb93e614cbd9cae4e9a175257c2cc0b-8D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/8D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/8H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/8H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/ecac5b4fc5e3693b59694aad5eada7ab-8H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/8H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/8S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/8S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/3cc260242ac31ee92919807ff5bce16d-8S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/8S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/9C.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/9C.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/b915d77bac32754b575094c203b63aa5-9C.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/9C.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/9D.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/9D.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/8a7943dae5600d3c22a1159bed427eb8-9D.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/9D.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/9H.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/9H.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/43b7197a4d9633ee72772cad4418ecb1-9H.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/9H.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/9S.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/9S.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/d8b0990429e8d1b7f24cea3f2d906245-9S.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/9S.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/AC.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/AC.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/a764770668f22df5e028fd4b4a0e0574-AC.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/AC.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/AD.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/AD.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/1ce2b4c2e771b5dade2b5b03cd85cbba-AD.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/AD.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/AH.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/AH.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/f862fe0413b80e1ff71cef761a253488-AH.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/AH.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/AS.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/AS.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/f6572cfd35b24930cac2ac08389406f8-AS.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/AS.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/JC.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/JC.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/8c1e02cb23a7a85cab4d62837e30e27a-JC.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/JC.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/JD.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/JD.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/7a9a4794ca65c2b1a0228b8b891b3d13-JD.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/JD.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/JH.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/JH.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/51714864f9646a61aa78ad3e3aaa2a52-JH.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/JH.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/JS.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/JS.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/9d549317b62426ec7e178d3dec933c32-JS.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/JS.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/KC.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/KC.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/b89fa805bbe0450602ed34c9957e2788-KC.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/KC.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/KD.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/KD.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/4669b784f0cbbbf0f8bf5e1f3820d8b9-KD.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/KD.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/KH.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/KH.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/d6dc6061af709de6c4736b744c026ef5-KH.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/KH.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/KS.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/KS.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/aa59ba78d779f1479894360e407a983d-KS.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/KS.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/QC.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/QC.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/b54fdf209c86fdface0a5bb69070ff2a-QC.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/QC.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/QD.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/QD.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/3e8dedb3ff49abe69e80025afd314c22-QD.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/QD.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/QH.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/QH.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/94af09f7ab22203ce6bd9cd7447a839b-QH.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/QH.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/QS.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/QS.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/b318d6aa1febabb27dc9b4af00214cba-QS.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/QS.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/TC.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/TC.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/41bd4461acbef85b7c2d70e94049c5d6-TC.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/TC.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/TD.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/TD.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/b84b99c6a614724cf7ccef2242c9872b-TD.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/TD.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/TH.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/TH.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/f2a8fc483426c017af1a214cfbb1ae5a-TH.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/TH.svg?");
+
+/***/ }),
+
+/***/ "./client/src/cards/TS.svg":
+/*!*********************************!*\
+  !*** ./client/src/cards/TS.svg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/374962ffc7f2ad678feefb5ac5e74ad9-TS.svg\");\n\n//# sourceURL=webpack:///./client/src/cards/TS.svg?");
+
+/***/ }),
+
 /***/ "./client/src/components/App.jsx":
 /*!***************************************!*\
   !*** ./client/src/components/App.jsx ***!
@@ -94,7 +718,43 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } else if (call !== void 0) { throw new TypeError(\"Derived constructors may only return object or undefined\"); } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _super.apply(this, arguments);\n  }\n\n  _createClass(App, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Black    Jaddsck\");\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./client/src/components/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _HooksExample_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HooksExample.jsx */ \"./client/src/components/HooksExample.jsx\");\n/* harmony import */ var _PlayerHand_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PlayerHand.jsx */ \"./client/src/components/PlayerHand.jsx\");\n/* harmony import */ var _Cards_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Cards.jsx */ \"./client/src/components/Cards.jsx\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== \"undefined\" && arr[Symbol.iterator] || arr[\"@@iterator\"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\n\n\nfunction App(props) {\n  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])(_Cards_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n      _useState2 = _slicedToArray(_useState, 2),\n      deck = _useState2[0],\n      updateDeck = _useState2[1];\n\n  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])(0),\n      _useState4 = _slicedToArray(_useState3, 2),\n      playerPoints = _useState4[0],\n      setPlayerPoints = _useState4[1];\n\n  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])(0),\n      _useState6 = _slicedToArray(_useState5, 2),\n      dealerPoints = _useState6[0],\n      setDealerPoints = _useState6[1];\n\n  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])([]),\n      _useState8 = _slicedToArray(_useState7, 2),\n      inUse = _useState8[0],\n      setInUse = _useState8[1];\n\n  var removeCard = function removeCard(index) {\n    var updatedDeck = deck;\n    var removed = updatedDeck.splice(index, 1);\n    setInUse(inUse.concat([removed]));\n    updateDeck(updatedDeck);\n  };\n\n  var getPlayerPoints = function getPlayerPoints(points) {\n    setPlayerPoints(points);\n  };\n\n  var getDealerPoints = function getDealerPoints(points) {\n    setDealerPoints(points);\n  };\n\n  Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useEffect\"])(function () {// console.log('deck: ', deck, '\\nplayerPoints: ', playerPoints,'\\ninUse: ', inUse);\n    // console.log(playerPoints);\n  });\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"app\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"BlackJack!\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \" Dealer Points \", dealerPoints, \" \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PlayerHand_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    deck: deck,\n    removeCard: removeCard,\n    getPlayerPoints: getPlayerPoints,\n    getDealerPoints: getDealerPoints\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \" Player Points \", playerPoints, \" \"));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./client/src/components/App.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/Cards.jsx":
+/*!*****************************************!*\
+  !*** ./client/src/components/Cards.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _cards_2S_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../cards/2S.svg */ \"./client/src/cards/2S.svg\");\n/* harmony import */ var _cards_3S_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../cards/3S.svg */ \"./client/src/cards/3S.svg\");\n/* harmony import */ var _cards_4S_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../cards/4S.svg */ \"./client/src/cards/4S.svg\");\n/* harmony import */ var _cards_5S_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../cards/5S.svg */ \"./client/src/cards/5S.svg\");\n/* harmony import */ var _cards_6S_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../cards/6S.svg */ \"./client/src/cards/6S.svg\");\n/* harmony import */ var _cards_7S_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../cards/7S.svg */ \"./client/src/cards/7S.svg\");\n/* harmony import */ var _cards_8S_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../cards/8S.svg */ \"./client/src/cards/8S.svg\");\n/* harmony import */ var _cards_9S_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../cards/9S.svg */ \"./client/src/cards/9S.svg\");\n/* harmony import */ var _cards_TS_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../cards/TS.svg */ \"./client/src/cards/TS.svg\");\n/* harmony import */ var _cards_JS_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../cards/JS.svg */ \"./client/src/cards/JS.svg\");\n/* harmony import */ var _cards_QS_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../cards/QS.svg */ \"./client/src/cards/QS.svg\");\n/* harmony import */ var _cards_KS_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../cards/KS.svg */ \"./client/src/cards/KS.svg\");\n/* harmony import */ var _cards_AS_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../cards/AS.svg */ \"./client/src/cards/AS.svg\");\n/* harmony import */ var _cards_2H_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../cards/2H.svg */ \"./client/src/cards/2H.svg\");\n/* harmony import */ var _cards_3H_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../cards/3H.svg */ \"./client/src/cards/3H.svg\");\n/* harmony import */ var _cards_4H_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../cards/4H.svg */ \"./client/src/cards/4H.svg\");\n/* harmony import */ var _cards_5H_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../cards/5H.svg */ \"./client/src/cards/5H.svg\");\n/* harmony import */ var _cards_6H_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../cards/6H.svg */ \"./client/src/cards/6H.svg\");\n/* harmony import */ var _cards_7H_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../cards/7H.svg */ \"./client/src/cards/7H.svg\");\n/* harmony import */ var _cards_8H_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../cards/8H.svg */ \"./client/src/cards/8H.svg\");\n/* harmony import */ var _cards_9H_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../cards/9H.svg */ \"./client/src/cards/9H.svg\");\n/* harmony import */ var _cards_TH_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../cards/TH.svg */ \"./client/src/cards/TH.svg\");\n/* harmony import */ var _cards_JH_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../cards/JH.svg */ \"./client/src/cards/JH.svg\");\n/* harmony import */ var _cards_QH_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../cards/QH.svg */ \"./client/src/cards/QH.svg\");\n/* harmony import */ var _cards_KH_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../cards/KH.svg */ \"./client/src/cards/KH.svg\");\n/* harmony import */ var _cards_AH_svg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../cards/AH.svg */ \"./client/src/cards/AH.svg\");\n/* harmony import */ var _cards_2C_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../cards/2C.svg */ \"./client/src/cards/2C.svg\");\n/* harmony import */ var _cards_3C_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../cards/3C.svg */ \"./client/src/cards/3C.svg\");\n/* harmony import */ var _cards_4C_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../cards/4C.svg */ \"./client/src/cards/4C.svg\");\n/* harmony import */ var _cards_5C_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../cards/5C.svg */ \"./client/src/cards/5C.svg\");\n/* harmony import */ var _cards_6C_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../cards/6C.svg */ \"./client/src/cards/6C.svg\");\n/* harmony import */ var _cards_7C_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../cards/7C.svg */ \"./client/src/cards/7C.svg\");\n/* harmony import */ var _cards_8C_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../cards/8C.svg */ \"./client/src/cards/8C.svg\");\n/* harmony import */ var _cards_9C_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../cards/9C.svg */ \"./client/src/cards/9C.svg\");\n/* harmony import */ var _cards_TC_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../cards/TC.svg */ \"./client/src/cards/TC.svg\");\n/* harmony import */ var _cards_JC_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../cards/JC.svg */ \"./client/src/cards/JC.svg\");\n/* harmony import */ var _cards_QC_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../cards/QC.svg */ \"./client/src/cards/QC.svg\");\n/* harmony import */ var _cards_KC_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../cards/KC.svg */ \"./client/src/cards/KC.svg\");\n/* harmony import */ var _cards_AC_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../cards/AC.svg */ \"./client/src/cards/AC.svg\");\n/* harmony import */ var _cards_2D_svg__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../cards/2D.svg */ \"./client/src/cards/2D.svg\");\n/* harmony import */ var _cards_3D_svg__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../cards/3D.svg */ \"./client/src/cards/3D.svg\");\n/* harmony import */ var _cards_4D_svg__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../cards/4D.svg */ \"./client/src/cards/4D.svg\");\n/* harmony import */ var _cards_5D_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../cards/5D.svg */ \"./client/src/cards/5D.svg\");\n/* harmony import */ var _cards_6D_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../cards/6D.svg */ \"./client/src/cards/6D.svg\");\n/* harmony import */ var _cards_7D_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../cards/7D.svg */ \"./client/src/cards/7D.svg\");\n/* harmony import */ var _cards_8D_svg__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../cards/8D.svg */ \"./client/src/cards/8D.svg\");\n/* harmony import */ var _cards_9D_svg__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../cards/9D.svg */ \"./client/src/cards/9D.svg\");\n/* harmony import */ var _cards_TD_svg__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../cards/TD.svg */ \"./client/src/cards/TD.svg\");\n/* harmony import */ var _cards_JD_svg__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../cards/JD.svg */ \"./client/src/cards/JD.svg\");\n/* harmony import */ var _cards_QD_svg__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../cards/QD.svg */ \"./client/src/cards/QD.svg\");\n/* harmony import */ var _cards_KD_svg__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../cards/KD.svg */ \"./client/src/cards/KD.svg\");\n/* harmony import */ var _cards_AD_svg__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../cards/AD.svg */ \"./client/src/cards/AD.svg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n // const deck = [\n//   TwoS, ThreeS, FourS, FiveS, SixS, SevenS, EightS, NineS, TenS, JS, QS, KS, AS\n// ];\n\nvar cards = [[_cards_2D_svg__WEBPACK_IMPORTED_MODULE_41__[\"default\"], 2], [_cards_3D_svg__WEBPACK_IMPORTED_MODULE_42__[\"default\"], 3], [_cards_4D_svg__WEBPACK_IMPORTED_MODULE_43__[\"default\"], 4], [_cards_5D_svg__WEBPACK_IMPORTED_MODULE_44__[\"default\"], 5], [_cards_6D_svg__WEBPACK_IMPORTED_MODULE_45__[\"default\"], 6], [_cards_7D_svg__WEBPACK_IMPORTED_MODULE_46__[\"default\"], 7], [_cards_8D_svg__WEBPACK_IMPORTED_MODULE_47__[\"default\"], 8], [_cards_9D_svg__WEBPACK_IMPORTED_MODULE_48__[\"default\"], 9], [_cards_TD_svg__WEBPACK_IMPORTED_MODULE_49__[\"default\"], 10], [_cards_JD_svg__WEBPACK_IMPORTED_MODULE_50__[\"default\"], 10], [_cards_QD_svg__WEBPACK_IMPORTED_MODULE_51__[\"default\"], 10], [_cards_KD_svg__WEBPACK_IMPORTED_MODULE_52__[\"default\"], 10], [_cards_AD_svg__WEBPACK_IMPORTED_MODULE_53__[\"default\"], 11], [_cards_2C_svg__WEBPACK_IMPORTED_MODULE_28__[\"default\"], 2], [_cards_3C_svg__WEBPACK_IMPORTED_MODULE_29__[\"default\"], 3], [_cards_4C_svg__WEBPACK_IMPORTED_MODULE_30__[\"default\"], 4], [_cards_5C_svg__WEBPACK_IMPORTED_MODULE_31__[\"default\"], 5], [_cards_6C_svg__WEBPACK_IMPORTED_MODULE_32__[\"default\"], 6], [_cards_7C_svg__WEBPACK_IMPORTED_MODULE_33__[\"default\"], 7], [_cards_8C_svg__WEBPACK_IMPORTED_MODULE_34__[\"default\"], 8], [_cards_9C_svg__WEBPACK_IMPORTED_MODULE_35__[\"default\"], 9], [_cards_TC_svg__WEBPACK_IMPORTED_MODULE_36__[\"default\"], 10], [_cards_JC_svg__WEBPACK_IMPORTED_MODULE_37__[\"default\"], 10], [_cards_QC_svg__WEBPACK_IMPORTED_MODULE_38__[\"default\"], 10], [_cards_KC_svg__WEBPACK_IMPORTED_MODULE_39__[\"default\"], 10], [_cards_AC_svg__WEBPACK_IMPORTED_MODULE_40__[\"default\"], 11], [_cards_2H_svg__WEBPACK_IMPORTED_MODULE_15__[\"default\"], 2], [_cards_3H_svg__WEBPACK_IMPORTED_MODULE_16__[\"default\"], 3], [_cards_4H_svg__WEBPACK_IMPORTED_MODULE_17__[\"default\"], 4], [_cards_5H_svg__WEBPACK_IMPORTED_MODULE_18__[\"default\"], 5], [_cards_6H_svg__WEBPACK_IMPORTED_MODULE_19__[\"default\"], 6], [_cards_7H_svg__WEBPACK_IMPORTED_MODULE_20__[\"default\"], 7], [_cards_8H_svg__WEBPACK_IMPORTED_MODULE_21__[\"default\"], 8], [_cards_9H_svg__WEBPACK_IMPORTED_MODULE_22__[\"default\"], 9], [_cards_TH_svg__WEBPACK_IMPORTED_MODULE_23__[\"default\"], 10], [_cards_JH_svg__WEBPACK_IMPORTED_MODULE_24__[\"default\"], 10], [_cards_QH_svg__WEBPACK_IMPORTED_MODULE_25__[\"default\"], 10], [_cards_KH_svg__WEBPACK_IMPORTED_MODULE_26__[\"default\"], 10], [_cards_AH_svg__WEBPACK_IMPORTED_MODULE_27__[\"default\"], 11], [_cards_2S_svg__WEBPACK_IMPORTED_MODULE_2__[\"default\"], 2], [_cards_3S_svg__WEBPACK_IMPORTED_MODULE_3__[\"default\"], 3], [_cards_4S_svg__WEBPACK_IMPORTED_MODULE_4__[\"default\"], 4], [_cards_5S_svg__WEBPACK_IMPORTED_MODULE_5__[\"default\"], 5], [_cards_6S_svg__WEBPACK_IMPORTED_MODULE_6__[\"default\"], 6], [_cards_7S_svg__WEBPACK_IMPORTED_MODULE_7__[\"default\"], 7], [_cards_8S_svg__WEBPACK_IMPORTED_MODULE_8__[\"default\"], 8], [_cards_9S_svg__WEBPACK_IMPORTED_MODULE_9__[\"default\"], 9], [_cards_TS_svg__WEBPACK_IMPORTED_MODULE_10__[\"default\"], 10], [_cards_JS_svg__WEBPACK_IMPORTED_MODULE_11__[\"default\"], 10], [_cards_QS_svg__WEBPACK_IMPORTED_MODULE_12__[\"default\"], 10], [_cards_KS_svg__WEBPACK_IMPORTED_MODULE_13__[\"default\"], 10], [_cards_AS_svg__WEBPACK_IMPORTED_MODULE_14__[\"default\"], 11]];\n/* harmony default export */ __webpack_exports__[\"default\"] = (cards);\n\n//# sourceURL=webpack:///./client/src/components/Cards.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/HooksExample.jsx":
+/*!************************************************!*\
+  !*** ./client/src/components/HooksExample.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== \"undefined\" && arr[Symbol.iterator] || arr[\"@@iterator\"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\nfunction Example() {\n  // Declare a new state variable, which we'll call \"count\"\n  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])(0),\n      _useState2 = _slicedToArray(_useState, 2),\n      count = _useState2[0],\n      setCount = _useState2[1]; // useState returns a pair: the current state value and a function that lets you update it\n  // pass in the initial value\n  // when count gets updated, useEffect()\n\n\n  Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useEffect\"])(function () {\n    // Update the document title using the browser API\n    document.title = \"\".concat(count, \" clicks\");\n  });\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"You clicked \", count, \" times\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", {\n    onClick: function onClick() {\n      setCount(count + 1);\n      console.log(count);\n    }\n  }, \"Click me\"));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Example);\n\n//# sourceURL=webpack:///./client/src/components/HooksExample.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/PlayerHand.jsx":
+/*!**********************************************!*\
+  !*** ./client/src/components/PlayerHand.jsx ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nfunction _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }\n\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _iterableToArray(iter) { if (typeof Symbol !== \"undefined\" && iter[Symbol.iterator] != null || iter[\"@@iterator\"] != null) return Array.from(iter); }\n\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== \"undefined\" && arr[Symbol.iterator] || arr[\"@@iterator\"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\nfunction PlayerHand(props) {\n  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])(0),\n      _useState2 = _slicedToArray(_useState, 2),\n      playerPoints = _useState2[0],\n      setPlayerPoints = _useState2[1];\n\n  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])([]),\n      _useState4 = _slicedToArray(_useState3, 2),\n      playerHand = _useState4[0],\n      setPlayerHand = _useState4[1];\n\n  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])(0),\n      _useState6 = _slicedToArray(_useState5, 2),\n      dealerPoints = _useState6[0],\n      setDealerPoints = _useState6[1];\n\n  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])([]),\n      _useState8 = _slicedToArray(_useState7, 2),\n      dealerHand = _useState8[0],\n      setDealerHand = _useState8[1];\n\n  var dealDealer = function dealDealer() {\n    var hand = [];\n    var points = 0;\n\n    for (var i = 0; i < 2; i++) {\n      var randomIndex = Math.floor(Math.random() * props.deck.length);\n      var randomCard = props.deck[randomIndex];\n      points += randomCard[1];\n      props.removeCard(randomIndex);\n      hand.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n        src: randomCard[0],\n        key: i,\n        className: \"card\"\n      }));\n    }\n\n    setDealerPoints(points);\n    setDealerHand(hand);\n  };\n\n  var dealPlayer = function dealPlayer() {\n    var hand = [];\n    var points = 0;\n\n    for (var i = 0; i < 2; i++) {\n      var randomIndex = Math.floor(Math.random() * props.deck.length);\n      var randomCard = props.deck[randomIndex];\n      points += randomCard[1];\n      props.removeCard(randomIndex);\n      hand.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n        src: randomCard[0],\n        key: i,\n        className: \"card\"\n      }));\n    }\n\n    setPlayerPoints(points);\n    setPlayerHand(hand);\n  }; // let dealPlayer = () => {\n  //   setPlayerHand([]);\n  //   setPlayerPoints(0);\n  //   // hit();\n  //   // hit();\n  // }\n  // on hit, add new card, update parent info\n\n\n  var hit = function hit() {\n    var randomIndex = Math.floor(Math.random() * props.deck.length);\n    var randomCard = props.deck[randomIndex];\n    setPlayerPoints(playerPoints + randomCard[1]);\n    props.removeCard(randomIndex);\n    setPlayerHand(function (oldArray) {\n      return [].concat(_toConsumableArray(oldArray), [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n        src: randomCard[0],\n        className: \"card\"\n      })]);\n    });\n  };\n\n  var stand = function stand() {\n    if (dealerPoints < 17) {\n      var randomIndex = Math.floor(Math.random() * props.deck.length);\n      var randomCard = props.deck[randomIndex];\n      setDealerPoints(playerPoints + randomCard[1]);\n      props.removeCard(randomIndex);\n      setDealerHand(function (oldArray) {\n        return [].concat(_toConsumableArray(oldArray), [/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n          src: randomCard[0],\n          className: \"card\"\n        })]);\n      });\n    }\n  }; // on update, send point total to parent\n\n\n  Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useEffect\"])(function () {\n    // console.log('playerHand: ', playerHand, '\\nplayerPoints: ', playerPoints)\n    console.log('dealerHand: ', dealerHand, '\\ndealerPoints: ', dealerPoints);\n    props.getPlayerPoints(playerPoints);\n    props.getDealerPoints(dealerPoints);\n  }, [playerPoints, dealerPoints]);\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"table\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"dealer-area\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"dealer-cards\"\n  }, dealerHand)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"player-area\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"player-cards\"\n  }, playerHand), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"buttons\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", {\n    onClick: function onClick() {\n      dealPlayer();\n      dealDealer();\n    },\n    className: \"deal\"\n  }, \" DEAL \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", {\n    onClick: hit,\n    className: \"hit\"\n  }, \" HIT \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", {\n    onClick: stand,\n    className: \"stand\"\n  }, \" STAND \"))));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (PlayerHand);\n\n//# sourceURL=webpack:///./client/src/components/PlayerHand.jsx?");
 
 /***/ }),
 
