@@ -6,6 +6,7 @@ function PlayerHand(props) {
   const [playerHand, setPlayerHand] = useState([]);
   const [dealerPoints, setDealerPoints] = useState(0);
   const [dealerHand, setDealerHand] = useState([]);
+  const [standBeenCalled, setStandBeenCalled] = useState(false);
 
   let dealDealer = () => {
     let hand = [];
@@ -17,14 +18,14 @@ function PlayerHand(props) {
 
       points += randomCard[1];
       props.removeCard(randomIndex);
-      hand.push(<img src={randomCard[0]} key={i} className="card"/>);
+      hand.push(<img src={randomCard[0]} key={i} className='card' />);
     }
     setDealerPoints(points);
     setDealerHand(hand);
-  }
-
+  };
 
   let dealPlayer = () => {
+    setStandBeenCalled(false);
     let hand = [];
     let points = 0;
 
@@ -34,7 +35,7 @@ function PlayerHand(props) {
 
       points += randomCard[1];
       props.removeCard(randomIndex);
-      hand.push(<img src={randomCard[0]} key={i} className="card"/>);
+      hand.push(<img src={randomCard[0]} key={i} className='card' />);
     }
 
     setPlayerPoints(points);
@@ -53,57 +54,64 @@ function PlayerHand(props) {
     let randomIndex = Math.floor(Math.random() * props.deck.length);
     let randomCard = props.deck[randomIndex];
 
-    setPlayerPoints(playerPoints + randomCard[1])
+    setPlayerPoints(playerPoints + randomCard[1]);
     props.removeCard(randomIndex);
-    setPlayerHand(oldArray =>
-      [...oldArray, <img src={randomCard[0]} className="card"/>]
-    );
+    setPlayerHand((oldArray) => [...oldArray, <img src={randomCard[0]} className='card' />]);
   };
 
   let stand = () => {
+    setStandBeenCalled(true);
 
     if (dealerPoints < 17) {
       let randomIndex = Math.floor(Math.random() * props.deck.length);
       let randomCard = props.deck[randomIndex];
 
-      setDealerPoints(playerPoints + randomCard[1])
+      setDealerPoints(dealerPoints + randomCard[1]);
       props.removeCard(randomIndex);
-      setDealerHand(oldArray =>
-        [...oldArray, <img src={randomCard[0]} className="card"/>]
-      );
+      setDealerHand((oldArray) => [...oldArray, <img src={randomCard[0]} className='card' />]);
     }
-  }
+  };
 
   // on update, send point total to parent
   useEffect(() => {
     // console.log('playerHand: ', playerHand, '\nplayerPoints: ', playerPoints)
-    console.log('dealerHand: ', dealerHand, '\ndealerPoints: ', dealerPoints)
+    console.log('dealerHand: ', dealerHand, '\ndealerPoints: ', dealerPoints);
 
     props.getPlayerPoints(playerPoints);
     props.getDealerPoints(dealerPoints);
 
+    if (standBeenCalled && dealerPoints < 17) {
+      stand();
+    }
   }, [playerPoints, dealerPoints]);
 
   return (
-    <div className="table">
-      <div className="dealer-area">
-      <span className="dealer-cards">
-        {dealerHand}
-      </span>
+    <div className='table'>
+      <div className='dealer-area'>
+        <span className='dealer-cards'>{dealerHand}</span>
       </div>
-      <div className="player-area">
-      <span className="player-cards">
-        {playerHand}
-      </span>
-      <span className="buttons">
-        <button onClick={() => {dealPlayer(); dealDealer(); }} className="deal"> DEAL </button>
-        <button onClick={hit} className="hit"> HIT </button>
-        <button onClick={stand} className="stand"> STAND </button>
-      </span>
+      <div className='player-area'>
+        <span className='player-cards'>{playerHand}</span>
+        <span className='buttons'>
+          <button
+            onClick={() => {
+              dealPlayer();
+              dealDealer();
+            }}
+            className='deal'
+          >
+            DEAL
+          </button>
+          <button onClick={hit} className='hit'>
+            HIT
+          </button>
+          <button onClick={stand} className='stand'>
+            STAND
+          </button>
+        </span>
       </div>
     </div>
   );
 }
 
 export default PlayerHand;
-
