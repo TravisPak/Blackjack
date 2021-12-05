@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Example from './HooksExample.jsx';
 import DealerHand from './DealerHand.jsx';
 import PlayerHand from './PlayerHand.jsx';
+import Form from './Form.jsx';
 import cards from './Cards.jsx';
 
 
@@ -12,6 +13,7 @@ function App(props) {
   const [dealerHand, setDealerHand] = useState([]);
   const [dealerPoints, setDealerPoints] = useState([]);
   const [standBeenCalled, setStandBeenCalled] = useState(false);
+  const [foundEleven, setFoundEleven] = useState(false)
   const [outcome, setOutcome] = useState('')
 
   let removeCard = (index) => {
@@ -23,6 +25,7 @@ function App(props) {
   let deal = () => {
     setOutcome('');
     setStandBeenCalled(false);
+    setFoundEleven(false);
 
     let getTwoRandomCards = () => {
       let hand = [];
@@ -67,29 +70,27 @@ function App(props) {
       removeCard(randomIndex);
       setDealerPoints((oldArray) => [...oldArray, randomCard[1]]);
       setDealerHand((oldArray) => [...oldArray, <img src={randomCard[0]} className='card' />]);
-    } else {
-      evaluate();
     }
+
   };
 
   let evaluate = () => {
     let dealerTotal = dealerPoints.reduce((a, b) => a+b, 0);
     let playerTotal = playerPoints.reduce((a, b) => a+b, 0);
 
-    console.log(playerTotal)
+    console.log('EVALUATING PLAYER TOTAL: ', playerTotal, ' VS DEALER: ', dealerTotal, 'standbeencalled?:', standBeenCalled)
     if (playerTotal > 21) {
       setOutcome('BUST!!');
+    }
+    if (playerTotal === 21 && (!standBeenCalled)) {
+      setOutcome('!! 21 !!');
       setStandBeenCalled(true);
     }
-    if (playerTotal === 21 && dealerTotal < 21) {
-      setOutcome('!! 21 !!')
-      setTimeout(stand, 2000);
-    }
-    if (dealerTotal > 21) {
+    if ((dealerTotal > 21) && (playerTotal <= 21)) {
       setOutcome('WINNER!!');
     }
-    if ((dealerTotal >= 17) && (dealerTotal <= 21) && (standBeenCalled) && (dealerTotal > playerTotal)) {
-      setOutcome('LOSE!!');
+    if ((dealerTotal >= 17) && (dealerTotal <= 21) && (dealerTotal > playerTotal) && (standBeenCalled)) {
+      setOutcome('LOSER!!');
     }
     if ((dealerTotal >= 17) && (dealerTotal <= 21) && (dealerTotal < playerTotal) && (playerTotal <= 21) && (standBeenCalled)) {
       setOutcome('WINNER');
@@ -100,47 +101,52 @@ function App(props) {
   }
 
   useEffect(() => {
-
     // check if Ace needs to be converted
-    console.log('checking for 11...', playerPoints, playerPoints.reduce((a, b) => a+b, 0))
+    console.log('checking for 11...', playerPoints, '=' , playerPoints.reduce((a, b) => a+b, 0))
     if ((playerPoints.indexOf(11) >= 0) && ((playerPoints.reduce((a, b) => a+b, 0)) > 21)) {
+      console.log('Found an 11 that needs to be resolved')
       let tempPointsArray = playerPoints;
       tempPointsArray.splice(tempPointsArray.indexOf(11), 1, 1)
       setPlayerPoints(tempPointsArray);
+      setFoundEleven(true);
     }
+  })
+
+  useEffect(() => {
 
     // evaluate for winner
-    evaluate();
+    setTimeout(evaluate, 500);
 
     // add cards to dealer hand if under 17
     let dealerTotal = dealerPoints.reduce((a, b) => a+b, 0);
     if (standBeenCalled && dealerTotal < 17) {
-      stand();
+      setTimeout(stand, 1000);
     }
-  }, [playerPoints, dealerPoints, playerHand, dealerHand]);
-  console.log('playerHand: ', playerHand, 'playerPoints: ', playerPoints);
+  }, [playerPoints, dealerPoints, playerHand, dealerHand, standBeenCalled, foundEleven]);
+  // console.log('playerHand: ', playerHand, 'playerPoints: ', playerPoints, '=', playerPoints.reduce((a, b) => a+b, 0));
 
   return (
-
     <div className="app">
-      <h1 className="banner">BlackJack!</h1>
-      <div className="dealer-points"> Dealer Points {dealerPoints.reduce((a, b) => a+b, 0)} </div>
-      <DealerHand dealerHand={dealerHand} standBeenCalled={standBeenCalled}/>
-      <div className="outcome">{outcome}</div>
-      <PlayerHand playerHand={playerHand} />
-      <div className="player-points"> Player Points {playerPoints.reduce((a, b) => a+b, 0)} </div>
-      <span className="buttons">
-        <button onClick={() => { deal(); }} className='deal'>
-          DEAL
-        </button>
-        <button onClick={hit} className='hit'>
-          HIT
-        </button>
-        <button onClick={stand} className='stand'>
-          STAND
-        </button>
-      </span>
-    </div>
+        <h1 className="banner">Blackjack!</h1>
+        <div className="dealer-points"> Dealer Points {dealerPoints.reduce((a, b) => a+b, 0)} </div>
+        <DealerHand dealerHand={dealerHand} standBeenCalled={standBeenCalled}/>
+        <div className="outcome">{outcome}</div>
+        <PlayerHand playerHand={playerHand} />
+        <div className="player-points"> Player Points {playerPoints.reduce((a, b) => a+b, 0)} </div>
+        <span className="buttons">
+          <button onClick={() => { deal(); }} className='deal'>
+            DEAL
+          </button>
+          <button onClick={hit} className='hit'>
+            HIT
+          </button>
+          <button onClick={stand} className='stand'>
+            STAND
+          </button>
+        </span>
+        <Form/>
+
+      </div>
   );
 }
 
