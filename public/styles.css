@@ -69,3 +69,15 @@
   border-radius: 0.5rem;
   box-shadow: 0.25rem 0.25rem 0.25rem grey;
 }
+
+.dealer-back {
+  position: absolute;
+  z-index: 1;
+  margin: 5px;
+  border: 1px solid grey;
+  height: 15rem;
+}
+
+.hidden {
+  opacity: .05;
+}

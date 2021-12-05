@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 import TwoS from '../cards/2S.svg';
 import ThreeS from '../cards/3S.svg';
 import FourS from '../cards/4S.svg';
