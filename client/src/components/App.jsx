@@ -67,6 +67,8 @@ function App(props) {
       removeCard(randomIndex);
       setDealerPoints((oldArray) => [...oldArray, randomCard[1]]);
       setDealerHand((oldArray) => [...oldArray, <img src={randomCard[0]} className='card' />]);
+    } else {
+      evaluate();
     }
   };
 
@@ -79,7 +81,7 @@ function App(props) {
       setOutcome('BUST!!');
       setStandBeenCalled(true);
     }
-    if (playerTotal === 21 && dealerTotal < 17) {
+    if (playerTotal === 21 && dealerTotal < 21) {
       setOutcome('!! 21 !!')
       setTimeout(stand, 2000);
     }
@@ -121,9 +123,12 @@ function App(props) {
   return (
 
     <div className="app">
-      <h1>BlackJack!</h1>
-      <div> Dealer Points {dealerPoints.reduce((a, b) => a+b, 0)} </div>
+      <h1 className="banner">BlackJack!</h1>
+      <div className="dealer-points"> Dealer Points {dealerPoints.reduce((a, b) => a+b, 0)} </div>
       <DealerHand dealerHand={dealerHand} standBeenCalled={standBeenCalled}/>
+      <div className="outcome">{outcome}</div>
+      <PlayerHand playerHand={playerHand} />
+      <div className="player-points"> Player Points {playerPoints.reduce((a, b) => a+b, 0)} </div>
       <span className="buttons">
         <button onClick={() => { deal(); }} className='deal'>
           DEAL
@@ -135,10 +140,6 @@ function App(props) {
           STAND
         </button>
       </span>
-      <div className="outcome">{outcome}</div>
-      <PlayerHand playerHand={playerHand} />
-      <div> Player Points {playerPoints.reduce((a, b) => a+b, 0)} </div>
-
     </div>
   );
 }
