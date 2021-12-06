@@ -31,13 +31,12 @@ body {
 .outcome {
   z-index: 2;
   position: absolute;
-  /* transform: translate(200px, -800px); */
+  top: 20rem;
   font-size: 20rem;
   opacity: 0.5;
   color: red;
-  /* transform: rotate(-30deg); */
+  transform: rotate(-30deg);
   border: 1px solid grey;
-
 }
 
 .dealer-points {
@@ -98,28 +97,33 @@ body {
 }
 
 .hit {
-  height: 2rem;
-  width: 4rem;
+  height: 4rem;
+  width: 7rem;
   border-radius: 0.5rem;
   box-shadow: 0.25rem 0.25rem 0.25rem grey;
   font-family: 'Lobster', cursive;
-
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .deal {
-  height: 2rem;
-  width: 4rem;
+  height: 4rem;
+  width: 7rem;
   border-radius: 0.5rem;
   box-shadow: 0.25rem 0.25rem 0.25rem grey;
   font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .stand {
-  height: 2rem;
-  width: 4rem;
+  height: 4rem;
+  width: 7rem;
   border-radius: 0.5rem;
   box-shadow: 0.25rem 0.25rem 0.25rem grey;
   font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .dealer-back {
@@ -131,7 +135,7 @@ body {
 }
 
 .hidden {
-  opacity: .05;
+  opacity: .025;
 }
 
 .form {
@@ -140,9 +144,17 @@ body {
   height: 8rem;
   width: 40rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border: 4px outset grey;
   border-radius: 1rem;
+}
 
+.welcome {
+  font-size: 1.5rem;
+}
+
+input {
+  margin: 0.25rem 0.5rem;
 }

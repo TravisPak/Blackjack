@@ -81,6 +81,7 @@ function App(props) {
     console.log('EVALUATING PLAYER TOTAL: ', playerTotal, ' VS DEALER: ', dealerTotal, 'standbeencalled?:', standBeenCalled)
     if (playerTotal > 21) {
       setOutcome('BUST!!');
+      setStandBeenCalled(true);
     }
     if (playerTotal === 21 && (!standBeenCalled)) {
       setOutcome('!! 21 !!');
@@ -93,10 +94,10 @@ function App(props) {
       setOutcome('LOSER!!');
     }
     if ((dealerTotal >= 17) && (dealerTotal <= 21) && (dealerTotal < playerTotal) && (playerTotal <= 21) && (standBeenCalled)) {
-      setOutcome('WINNER');
+      setOutcome('WINNER!!');
     }
     if ((dealerTotal >= 17) && (dealerTotal <= 21) && (dealerTotal === playerTotal) && (standBeenCalled)) {
-      setOutcome('TIE');
+      setOutcome('DRAW');
     }
   }
 
@@ -104,10 +105,18 @@ function App(props) {
     // check if Ace needs to be converted
     console.log('checking for 11...', playerPoints, '=' , playerPoints.reduce((a, b) => a+b, 0))
     if ((playerPoints.indexOf(11) >= 0) && ((playerPoints.reduce((a, b) => a+b, 0)) > 21)) {
-      console.log('Found an 11 that needs to be resolved')
+      console.log('Found an 11 that needs to be resolved for PLAYER')
       let tempPointsArray = playerPoints;
       tempPointsArray.splice(tempPointsArray.indexOf(11), 1, 1)
       setPlayerPoints(tempPointsArray);
+      setFoundEleven(true);
+    }
+
+    if ((dealerPoints.indexOf(11) >= 0) && ((dealerPoints.reduce((a, b) => a+b, 0)) > 21)) {
+      console.log('Found an 11 that needs to be resolved for DEALER')
+      let tempPointsArray = dealerPoints;
+      tempPointsArray.splice(tempPointsArray.indexOf(11), 1, 1)
+      setDealerPoints(tempPointsArray);
       setFoundEleven(true);
     }
   })
@@ -115,12 +124,12 @@ function App(props) {
   useEffect(() => {
 
     // evaluate for winner
-    setTimeout(evaluate, 500);
+    setTimeout(evaluate, 1000);
 
     // add cards to dealer hand if under 17
     let dealerTotal = dealerPoints.reduce((a, b) => a+b, 0);
     if (standBeenCalled && dealerTotal < 17) {
-      setTimeout(stand, 1000);
+      stand()
     }
   }, [playerPoints, dealerPoints, playerHand, dealerHand, standBeenCalled, foundEleven]);
   // console.log('playerHand: ', playerHand, 'playerPoints: ', playerPoints, '=', playerPoints.reduce((a, b) => a+b, 0));
@@ -128,7 +137,7 @@ function App(props) {
   return (
     <div className="app">
         <h1 className="banner">Blackjack!</h1>
-        <div className="dealer-points"> Dealer Points {dealerPoints.reduce((a, b) => a+b, 0)} </div>
+        <div className={standBeenCalled ? "dealer-points" : "dealer-points hidden"}> Dealer Points {dealerPoints.reduce((a, b) => a+b, 0)} </div>
         <DealerHand dealerHand={dealerHand} standBeenCalled={standBeenCalled}/>
         <div className="outcome">{outcome}</div>
         <PlayerHand playerHand={playerHand} />
