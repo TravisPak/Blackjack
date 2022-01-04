@@ -13,8 +13,9 @@ function App(props) {
   const [dealerHand, setDealerHand] = useState([]);
   const [dealerPoints, setDealerPoints] = useState([]);
   const [standBeenCalled, setStandBeenCalled] = useState(false);
-  const [foundEleven, setFoundEleven] = useState(false)
-  const [outcome, setOutcome] = useState('')
+  const [foundEleven, setFoundEleven] = useState(false);
+  const [outcome, setOutcome] = useState('');
+  const [bust, setBust] = useState(false);
 
   let removeCard = (index) => {
     let updatedDeck = deck;
@@ -63,7 +64,7 @@ function App(props) {
     setStandBeenCalled(true);
     let dealerTotal = dealerPoints.reduce((a, b) => a+b, 0);
 
-    if (dealerTotal < 17) {
+    if (dealerTotal < 17 && !bust) {
       let randomIndex = Math.floor(Math.random() * deck.length);
       let randomCard = deck[randomIndex];
 
@@ -81,6 +82,7 @@ function App(props) {
     console.log('EVALUATING PLAYER TOTAL: ', playerTotal, ' VS DEALER: ', dealerTotal, 'standbeencalled?:', standBeenCalled)
     if (playerTotal > 21) {
       setOutcome('BUST!!');
+      setBust(true);
       setStandBeenCalled(true);
     }
     if (playerTotal === 21 && (!standBeenCalled)) {
